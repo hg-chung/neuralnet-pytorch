@@ -1,6 +1,6 @@
 import numpy as np
 import numbers
-from torch._six import container_abcs
+from collections import abc as container_abcs
 import sympy as sp
 
 from . import root_logger
