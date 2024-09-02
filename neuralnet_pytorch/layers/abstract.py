@@ -2,7 +2,7 @@ from collections import OrderedDict
 
 import torch as T
 import torch.nn as nn
-from torch._six import container_abcs
+from collections import abc as container_abcs
 import sympy as sp
 
 from .. import utils
